@@ -1,0 +1,47 @@
+ .panel-surface,
+ .filters-card,
+ .table-card,
+ .metric-card,
+ .chart-card,
+ .mobile-card-list,
+ .club-card,
+ .staff-card,
+ .asset-card {
+   border: 1px solid #e3e8f0;
+   border-radius: 12px;
+   background: #fff;
+   box-shadow: 0 6px 16px rgba(17, 38, 146, 0.08);
+   padding: 12px;
+   position: relative;
+   overflow: hidden;
+   transition: transform 120ms ease, box-shadow 120ms ease;
+ }
+
+ .panel-surface::after,
+ .filters-card::after,
+ .table-card::after,
+ .metric-card::after,
+ .chart-card::after,
+ .mobile-card-list::after,
+ .club-card::after,
+ .staff-card::after,
+ .asset-card::after {
+   content: "";
+   position: absolute;
+   inset: 0;
+   background: linear-gradient(135deg, rgba(33, 136, 229, 0.04), rgba(255, 255, 255, 0));
+   pointer-events: none;
+ }
+
+ .panel-surface:hover,
+ .filters-card:hover,
+ .table-card:hover,
+ .metric-card:hover,
+ .chart-card:hover,
+ .mobile-card-list:hover,
+ .club-card:hover,
+ .staff-card:hover,
+ .asset-card:hover {
+   transform: translateY(-1px);
+   box-shadow: 0 10px 22px rgba(17, 38, 146, 0.12);
+ }

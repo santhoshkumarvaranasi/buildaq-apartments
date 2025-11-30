@@ -1,0 +1,19 @@
+<div class="tenant-switcher">
+  <div class="tenant-header">
+    <div class="tenant-name">Tenant: <strong>{{ tenant.getCurrentTenant()?.displayName || 'Default' }}</strong></div>
+    <div class="plan-select">
+      <mat-form-field appearance="outline">
+        <mat-label>Plan</mat-label>
+        <mat-select id="plan" [(ngModel)]="currentPlan" (selectionChange)="setPlan($event.value)">
+          <mat-option *ngFor="let p of plans" [value]="p">{{ p | titlecase }}</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+  </div>
+
+  <div class="feature-list">
+    <div class="feature" *ngFor="let k of keys">
+      <mat-checkbox [checked]="features[k]" (change)="toggleFeature(k)">{{ k }}</mat-checkbox>
+    </div>
+  </div>
+</div>

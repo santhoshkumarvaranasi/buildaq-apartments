@@ -1,0 +1,75 @@
+/* Compact UI overrides for Angular Material components
+   These rules reduce paddings, margins and heights to make the UI denser.
+   They target both legacy and MDC Material class names where practical.
+*/
+
+/* Cards */
+mat-card,
+.mat-mdc-card,
+.mat-card {
+  padding: 8px !important;
+  margin: 6px 0 !important;
+}
+
+.mat-card-content,
+.mat-mdc-card__content,
+.mat-card-content {
+  padding: 8px !important;
+}
+
+/* Form fields */
+mat-form-field,
+.mat-form-field,
+.mat-mdc-form-field {
+  margin: 4px 0 !important;
+}
+
+/* Reduce the visual height of form field control elements */
+.mat-form-field-infix,
+.mat-mdc-text-field-wrapper,
+mat-form-field .mat-form-field-infix {
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+}
+
+/* Buttons */
+button.mat-button,
+button.mat-stroked-button,
+button.mat-flat-button,
+button.mat-raised-button {
+  padding: 4px 8px !important;
+  min-height: 28px !important;
+  font-size: 0.875rem !important;
+}
+
+/* Tables: shorter row height */
+.mat-table .mat-row,
+table.mat-table tr,
+.mat-mdc-table .mat-row {
+  height: 36px !important;
+}
+
+/* Lists */
+.mat-list .mat-list-item,
+.mat-mdc-list .mat-list-item {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+}
+
+/* Toolbars - reduce height */
+.mat-toolbar,
+.mat-mdc-toolbar {
+  min-height: 40px !important;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+}
+
+/* Utility: slightly smaller default font-size for denser layouts */
+html, body {
+  font-size: 14px;
+}
+
+/* Provide a class to opt-out if needed */
+.app-spacious {
+  /* no-op: this class can be used to override compact rules when needed */
+}

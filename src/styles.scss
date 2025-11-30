@@ -1,0 +1,43 @@
+@use './styles/_material-theme' as *;
+@use './styles/_compact' as *;
+@use './styles/_panels';
+@use './styles/_custom-theme';
+@use './styles/_hc';
+
+/* Improve select dropdown readability */
+.mat-icon {
+  font-family: 'Material Icons', 'Material Symbols Outlined', 'Material Symbols Rounded', 'Material Symbols Sharp', sans-serif !important;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cdk-overlay-pane .mat-mdc-select-panel {
+  background: #fff !important;
+  color: #111 !important;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.16) !important;
+}
+
+.cdk-overlay-pane .mat-mdc-option {
+  background: #fff !important;
+  color: #111 !important;
+}
+
+.cdk-overlay-pane .mat-mdc-option.mdc-list-item--selected,
+.cdk-overlay-pane .mat-mdc-option:hover,
+.cdk-overlay-pane .mat-mdc-option:focus {
+  background: #eef2ff !important;
+  color: #111 !important;
+}
+
+.cdk-overlay-backdrop {
+  background: rgba(0,0,0,0.08);
+}
+
+/* Clubs desktop/mobile toggle (global safety net) */
+.clubs-page .desktop-only { display: block; }
+.clubs-page .mobile-only { display: none; }
+@media (max-width: 768px) {
+  .clubs-page .desktop-only { display: none; }
+  .clubs-page .mobile-only { display: grid; gap: 12px; }
+}
+

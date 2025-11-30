@@ -1,0 +1,14 @@
+.tenant-switcher {
+  padding: 8px 12px;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+.tenant-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.tenant-name { font-size: 13px; }
+.plan-select select { padding: 4px 6px; font-size: 13px; }
+.feature-list { margin-top: 8px; display:flex; flex-wrap:wrap; gap:6px; }
+.feature { font-size: 12px; background: rgba(0,0,0,0.03); padding:4px 6px; border-radius:4px }

@@ -1,0 +1,63 @@
+{
+  "name": "buildaq-apartments",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve buildaq-apartments --port 4202",
+    "start:local": "ng run buildaq-apartments:serve-original:development --port 4202",
+    "start:dev": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts\\start-dev.ps1",
+    "start:mf": "node scripts/dev-static-server.js",
+    "start:mf-watch": "npx concurrently \"npx ng build --watch --configuration development --output-path=dist/buildaq-apartments/browser\" \"npx browser-sync start --server 'dist/buildaq-apartments/browser' --files 'dist/buildaq-apartments/browser/**/*' --no-ui --no-notify --port 4203 --cors\"",
+    "build": "ng build",
+    "postbuild": "node scripts/gen-remote-metadata.js",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true,
+    "overrides": [
+      {
+        "files": "*.html",
+        "options": {
+          "parser": "angular"
+        }
+      }
+    ]
+  },
+  "private": true,
+  "dependencies": {
+    "@angular-architects/native-federation": "^20.1.7",
+    "@angular/animations": "^20.3.0",
+    "@angular/cdk": "^20.0.0",
+    "@angular/common": "^20.3.0",
+    "@angular/compiler": "^20.3.0",
+    "@angular/core": "^20.3.0",
+    "@angular/forms": "^20.3.0",
+    "@angular/material": "^20.0.0",
+    "@angular/platform-browser": "^20.3.0",
+    "@angular/router": "^20.3.0",
+    "@softarc/native-federation-node": "^3.3.4",
+    "es-module-shims": "^1.5.12",
+    "express": "^4.18.2",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.15.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^20.3.10",
+    "@angular/build": "^20.3.10",
+    "@angular/cli": "^20.3.10",
+    "@angular/compiler-cli": "^20.3.0",
+    "@types/jasmine": "~5.1.0",
+    "browser-sync": "^3.0.4",
+    "concurrently": "^9.2.1",
+    "jasmine-core": "~5.9.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "typescript": "~5.9.2"
+  }
+}
