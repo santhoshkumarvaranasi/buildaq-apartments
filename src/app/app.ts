@@ -1,5 +1,5 @@
 import { Component, signal, OnInit, inject } from '@angular/core';
-import { RouterOutlet, RouterModule, Router } from '@angular/router';
+import { RouterOutlet, RouterLink, Router } from '@angular/router';
 import { ActivatedRoute } from '@angular/router';
 import { TenantSwitcherComponent } from './core/components/tenant-switcher/tenant-switcher';
 import { MaterialModule } from './core/material.module';
@@ -7,7 +7,7 @@ import { MaterialModule } from './core/material.module';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, RouterModule, TenantSwitcherComponent, MaterialModule],
+  imports: [RouterOutlet, RouterLink, TenantSwitcherComponent, MaterialModule],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
