@@ -1,0 +1,46 @@
+name: Deploy Apartments to gh-pages
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deploy-apartments-gh-pages
+  cancel-in-progress: true
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci --legacy-peer-deps
+
+      - name: Build Application
+        run: npx ng build --configuration production
+
+      - name: Prepare GitHub Pages artifacts
+        run: |
+          cp CNAME dist/buildaq-apartments/browser/ 2>/dev/null || echo "CNAME not found, skipping"
+          touch dist/buildaq-apartments/browser/.nojekyll
+          cp dist/buildaq-apartments/browser/index.html dist/buildaq-apartments/browser/404.html
+
+      - name: Publish to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: dist/buildaq-apartments/browser
+          publish_branch: gh-pages
+          cname: apartments.buildaq.com
