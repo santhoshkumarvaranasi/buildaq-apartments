@@ -2,369 +2,297 @@
   "name": "apartments",
   "shared": [
     {
-      "packageName": "@angular/animations/browser",
-      "outFileName": "_angular_animations_browser.fb2u0Ztn3W.js",
-      "requiredVersion": "^20.3.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "20.3.14"
-    },
-    {
-      "packageName": "@angular/cdk/a11y",
-      "outFileName": "_angular_cdk_a11y.5Kgt4iXNly.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/cdk/bidi",
-      "outFileName": "_angular_cdk_bidi.KvMjdGWiJ_.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/cdk/coercion",
-      "outFileName": "_angular_cdk_coercion.hg59_3Oyg2.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/cdk/collections",
-      "outFileName": "_angular_cdk_collections.J_ZkN01ZyA.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/cdk/dialog",
-      "outFileName": "_angular_cdk_dialog.Te44JDBxxZ.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/cdk/keycodes",
-      "outFileName": "_angular_cdk_keycodes.1NSHWOgbBl.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/cdk/layout",
-      "outFileName": "_angular_cdk_layout.DyulxECHCW.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/cdk/observers",
-      "outFileName": "_angular_cdk_observers.uSZvFvGKGB.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/cdk/observers/private",
-      "outFileName": "_angular_cdk_observers_private.VVHdAdtsgd.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/cdk/overlay",
-      "outFileName": "_angular_cdk_overlay.I1yBvm9LR3.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/cdk/platform",
-      "outFileName": "_angular_cdk_platform.bsmuPmDbGx.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/cdk/portal",
-      "outFileName": "_angular_cdk_portal.b6DtH7xzvF.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/cdk/private",
-      "outFileName": "_angular_cdk_private.IY40eHQ_hn.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/cdk/scrolling",
-      "outFileName": "_angular_cdk_scrolling.2l4yuztw3w.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/cdk/table",
-      "outFileName": "_angular_cdk_table.2zo0TEEind.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/cdk/text-field",
-      "outFileName": "_angular_cdk_text_field.3NK8niF_E-.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/common",
-      "outFileName": "_angular_common.M4mdA_-Ln9.js",
-      "requiredVersion": "^20.3.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "20.3.14"
-    },
-    {
-      "packageName": "@angular/common/http",
-      "outFileName": "_angular_common_http.WjiYwfG64O.js",
-      "requiredVersion": "^20.3.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "20.3.14"
-    },
-    {
       "packageName": "@angular/core",
-      "outFileName": "_angular_core.PeR-PMIlx4.js",
-      "requiredVersion": "^20.3.0",
+      "outFileName": "_angular_core.edVvVhqqwQ.js",
+      "requiredVersion": "auto",
       "singleton": true,
       "strictVersion": false,
-      "version": "20.3.14"
-    },
-    {
-      "packageName": "@angular/core/primitives/di",
-      "outFileName": "_angular_core_primitives_di.3iYsb-4Z02.js",
-      "requiredVersion": "^20.3.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "20.3.14"
+      "version": "20.3.16"
     },
     {
       "packageName": "@angular/core/primitives/signals",
-      "outFileName": "_angular_core_primitives_signals.LRNu2abGV-.js",
-      "requiredVersion": "^20.3.0",
+      "outFileName": "_angular_core_primitives_signals.H4MIRAmhvO.js",
+      "requiredVersion": "auto",
       "singleton": true,
       "strictVersion": false,
-      "version": "20.3.14"
+      "version": "20.3.16"
+    },
+    {
+      "packageName": "@angular/core/primitives/di",
+      "outFileName": "_angular_core_primitives_di.YrYCtPtIge.js",
+      "requiredVersion": "auto",
+      "singleton": true,
+      "strictVersion": false,
+      "version": "20.3.16"
+    },
+    {
+      "packageName": "@angular/common",
+      "outFileName": "_angular_common.BmvhqxX4uU.js",
+      "requiredVersion": "auto",
+      "singleton": true,
+      "strictVersion": false,
+      "version": "20.3.16"
+    },
+    {
+      "packageName": "@angular/common/http",
+      "outFileName": "_angular_common_http.7_Ctl81HC8.js",
+      "requiredVersion": "auto",
+      "singleton": true,
+      "strictVersion": false,
+      "version": "20.3.16"
     },
     {
       "packageName": "@angular/forms",
-      "outFileName": "_angular_forms.xm7gMyBtcI.js",
-      "requiredVersion": "^20.3.0",
+      "outFileName": "_angular_forms.cICsIPitNs.js",
+      "requiredVersion": "auto",
       "singleton": true,
       "strictVersion": false,
-      "version": "20.3.14"
-    },
-    {
-      "packageName": "@angular/material/button",
-      "outFileName": "_angular_material_button.HKLnAUNcm1.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/material/card",
-      "outFileName": "_angular_material_card.0XWluJxA0y.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/material/checkbox",
-      "outFileName": "_angular_material_checkbox.HJeuer9p5R.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/material/chips",
-      "outFileName": "_angular_material_chips._mQjwA7eJg.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/material/dialog",
-      "outFileName": "_angular_material_dialog.eURQfCCOlu.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/material/form-field",
-      "outFileName": "_angular_material_form_field.BZeSYBz4Vy.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/material/icon",
-      "outFileName": "_angular_material_icon.lReQOzQxzR.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/material/input",
-      "outFileName": "_angular_material_input.a145dJ4As6.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/material/list",
-      "outFileName": "_angular_material_list.I0ev47dL0o.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/material/paginator",
-      "outFileName": "_angular_material_paginator.Zde0NCsMIh.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/material/progress-bar",
-      "outFileName": "_angular_material_progress_bar.siXDumJWKf.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/material/select",
-      "outFileName": "_angular_material_select.hZxt0tp49J.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/material/sidenav",
-      "outFileName": "_angular_material_sidenav.aJu5_8W5fD.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/material/sort",
-      "outFileName": "_angular_material_sort.StvykEGfWE.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/material/table",
-      "outFileName": "_angular_material_table.IjWngCIYAH.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/material/toolbar",
-      "outFileName": "_angular_material_toolbar.qccCRAOlzi.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
-    },
-    {
-      "packageName": "@angular/material/tooltip",
-      "outFileName": "_angular_material_tooltip.1gbIL7fwCa.js",
-      "requiredVersion": "^20.0.0",
-      "singleton": true,
-      "strictVersion": false,
-      "version": "21.0.1"
+      "version": "20.3.16"
     },
     {
       "packageName": "@angular/platform-browser",
-      "outFileName": "_angular_platform_browser.MHg6ciO_a7.js",
-      "requiredVersion": "^20.3.0",
+      "outFileName": "_angular_platform_browser.a4phk_4VhT.js",
+      "requiredVersion": "auto",
       "singleton": true,
       "strictVersion": false,
-      "version": "20.3.14"
+      "version": "20.3.16"
     },
     {
       "packageName": "@angular/platform-browser/animations",
-      "outFileName": "_angular_platform_browser_animations.eVmGXHPfvz.js",
-      "requiredVersion": "^20.3.0",
+      "outFileName": "_angular_platform_browser_animations.758ZdCNUPw.js",
+      "requiredVersion": "auto",
       "singleton": true,
       "strictVersion": false,
-      "version": "20.3.14"
+      "version": "20.3.16"
     },
     {
       "packageName": "@angular/router",
-      "outFileName": "_angular_router.owm9u_3FET.js",
-      "requiredVersion": "^20.3.0",
+      "outFileName": "_angular_router.u_cV8YLdr8.js",
+      "requiredVersion": "auto",
       "singleton": true,
       "strictVersion": false,
-      "version": "20.3.14"
+      "version": "20.3.16"
+    },
+    {
+      "packageName": "@angular/cdk/a11y",
+      "outFileName": "_angular_cdk_a11y.aXyJxoEKOc.js",
+      "requiredVersion": "auto",
+      "singleton": true,
+      "strictVersion": false,
+      "version": "20.2.14"
+    },
+    {
+      "packageName": "@angular/cdk/bidi",
+      "outFileName": "_angular_cdk_bidi.rkgpk0KXYS.js",
+      "requiredVersion": "auto",
+      "singleton": true,
+      "strictVersion": false,
+      "version": "20.2.14"
+    },
+    {
+      "packageName": "@angular/cdk/overlay",
+      "outFileName": "_angular_cdk_overlay.RkiB65o2-P.js",
+      "requiredVersion": "auto",
+      "singleton": true,
+      "strictVersion": false,
+      "version": "20.2.14"
+    },
+    {
+      "packageName": "@angular/cdk/platform",
+      "outFileName": "_angular_cdk_platform.zo8sDV7vLp.js",
+      "requiredVersion": "auto",
+      "singleton": true,
+      "strictVersion": false,
+      "version": "20.2.14"
+    },
+    {
+      "packageName": "@angular/cdk/portal",
+      "outFileName": "_angular_cdk_portal.iHqGVG5Upe.js",
+      "requiredVersion": "auto",
+      "singleton": true,
+      "strictVersion": false,
+      "version": "20.2.14"
+    },
+    {
+      "packageName": "@angular/cdk/scrolling",
+      "outFileName": "_angular_cdk_scrolling.vdKGBfWLqR.js",
+      "requiredVersion": "auto",
+      "singleton": true,
+      "strictVersion": false,
+      "version": "20.2.14"
+    },
+    {
+      "packageName": "@angular/cdk/table",
+      "outFileName": "_angular_cdk_table.xUJtgdnquX.js",
+      "requiredVersion": "auto",
+      "singleton": true,
+      "strictVersion": false,
+      "version": "20.2.14"
+    },
+    {
+      "packageName": "@angular/cdk/text-field",
+      "outFileName": "_angular_cdk_text_field.4Ue_ZKV5P9.js",
+      "requiredVersion": "auto",
+      "singleton": true,
+      "strictVersion": false,
+      "version": "20.2.14"
+    },
+    {
+      "packageName": "@angular/material/button",
+      "outFileName": "_angular_material_button.IQQ0r0hWyg.js",
+      "requiredVersion": "auto",
+      "singleton": true,
+      "strictVersion": false,
+      "version": "20.2.14"
+    },
+    {
+      "packageName": "@angular/material/icon",
+      "outFileName": "_angular_material_icon.kiiNfFu41i.js",
+      "requiredVersion": "auto",
+      "singleton": true,
+      "strictVersion": false,
+      "version": "20.2.14"
+    },
+    {
+      "packageName": "@angular/material/input",
+      "outFileName": "_angular_material_input.ZdvHe1RX3v.js",
+      "requiredVersion": "auto",
+      "singleton": true,
+      "strictVersion": false,
+      "version": "20.2.14"
+    },
+    {
+      "packageName": "@angular/material/form-field",
+      "outFileName": "_angular_material_form_field.0t0oyXp_Mi.js",
+      "requiredVersion": "auto",
+      "singleton": true,
+      "strictVersion": false,
+      "version": "20.2.14"
+    },
+    {
+      "packageName": "@angular/material/select",
+      "outFileName": "_angular_material_select.DUS5X6keDw.js",
+      "requiredVersion": "auto",
+      "singleton": true,
+      "strictVersion": false,
+      "version": "20.2.14"
+    },
+    {
+      "packageName": "@angular/material/table",
+      "outFileName": "_angular_material_table.0yp6tTiLNw.js",
+      "requiredVersion": "auto",
+      "singleton": true,
+      "strictVersion": false,
+      "version": "20.2.14"
+    },
+    {
+      "packageName": "@angular/material/card",
+      "outFileName": "_angular_material_card.i5uxrtbBg-.js",
+      "requiredVersion": "auto",
+      "singleton": true,
+      "strictVersion": false,
+      "version": "20.2.14"
+    },
+    {
+      "packageName": "@angular/material/toolbar",
+      "outFileName": "_angular_material_toolbar.MjGYvaVvuY.js",
+      "requiredVersion": "auto",
+      "singleton": true,
+      "strictVersion": false,
+      "version": "20.2.14"
+    },
+    {
+      "packageName": "@angular/material/dialog",
+      "outFileName": "_angular_material_dialog.2m1ImcY6gg.js",
+      "requiredVersion": "auto",
+      "singleton": true,
+      "strictVersion": false,
+      "version": "20.2.14"
+    },
+    {
+      "packageName": "@angular/material/list",
+      "outFileName": "_angular_material_list.nbpCYBmtzA.js",
+      "requiredVersion": "auto",
+      "singleton": true,
+      "strictVersion": false,
+      "version": "20.2.14"
+    },
+    {
+      "packageName": "@angular/material/checkbox",
+      "outFileName": "_angular_material_checkbox.UvVUNYPfPi.js",
+      "requiredVersion": "auto",
+      "singleton": true,
+      "strictVersion": false,
+      "version": "20.2.14"
+    },
+    {
+      "packageName": "@angular/material/sidenav",
+      "outFileName": "_angular_material_sidenav.0mSY3LqSO3.js",
+      "requiredVersion": "auto",
+      "singleton": true,
+      "strictVersion": false,
+      "version": "20.2.14"
+    },
+    {
+      "packageName": "@angular/material/chips",
+      "outFileName": "_angular_material_chips.wTmyfJJbJI.js",
+      "requiredVersion": "auto",
+      "singleton": true,
+      "strictVersion": false,
+      "version": "20.2.14"
+    },
+    {
+      "packageName": "@angular/material/paginator",
+      "outFileName": "_angular_material_paginator.myWDHcd9bp.js",
+      "requiredVersion": "auto",
+      "singleton": true,
+      "strictVersion": false,
+      "version": "20.2.14"
+    },
+    {
+      "packageName": "@angular/material/sort",
+      "outFileName": "_angular_material_sort.PJzZe4-U8Y.js",
+      "requiredVersion": "auto",
+      "singleton": true,
+      "strictVersion": false,
+      "version": "20.2.14"
+    },
+    {
+      "packageName": "@angular/material/tooltip",
+      "outFileName": "_angular_material_tooltip.3J4d1T4rkl.js",
+      "requiredVersion": "auto",
+      "singleton": true,
+      "strictVersion": false,
+      "version": "20.2.14"
+    },
+    {
+      "packageName": "@angular/material/progress-bar",
+      "outFileName": "_angular_material_progress_bar.5ZxDrBPXxo.js",
+      "requiredVersion": "auto",
+      "singleton": true,
+      "strictVersion": false,
+      "version": "20.2.14"
     },
     {
       "packageName": "rxjs",
-      "outFileName": "rxjs.zd5eEwXGwk.js",
-      "requiredVersion": "~7.8.0",
+      "outFileName": "rxjs.24DAZKWbj0.js",
+      "requiredVersion": "auto",
       "singleton": true,
       "strictVersion": false,
       "version": "7.8.2"
     },
     {
       "packageName": "rxjs/operators",
-      "outFileName": "rxjs_operators.XWU8x9lzR0.js",
-      "requiredVersion": "~7.8.0",
+      "outFileName": "rxjs_operators.5Ohsy9KuQU.js",
+      "requiredVersion": "auto",
       "singleton": true,
       "strictVersion": false,
       "version": "7.8.2"
     },
     {
       "packageName": "tslib",
-      "outFileName": "tslib.F6nMZLEmIC.js",
-      "requiredVersion": "^2.3.0",
+      "outFileName": "tslib.TRsB2-UPJL.js",
+      "requiredVersion": "auto",
       "singleton": true,
       "strictVersion": false,
       "version": "2.8.1"
@@ -372,312 +300,336 @@
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-N3P2CMAY",
-      "outFileName": "chunk-N3P2CMAY.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-KNUKVBCT",
+      "outFileName": "chunk-KNUKVBCT.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-TKMKNFS6",
-      "outFileName": "chunk-TKMKNFS6.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-JVXSST5N",
+      "outFileName": "chunk-JVXSST5N.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-P5YVU5K2",
-      "outFileName": "chunk-P5YVU5K2.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-G3RZESGD",
+      "outFileName": "chunk-G3RZESGD.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-JVUTYWYO",
-      "outFileName": "chunk-JVUTYWYO.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-AE2VQQRG",
+      "outFileName": "chunk-AE2VQQRG.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-ULIK2NTW",
-      "outFileName": "chunk-ULIK2NTW.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-IBGF4LC7",
+      "outFileName": "chunk-IBGF4LC7.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-5LCLK5PV",
-      "outFileName": "chunk-5LCLK5PV.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-HP7X34UI",
+      "outFileName": "chunk-HP7X34UI.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-PINCHDN4",
-      "outFileName": "chunk-PINCHDN4.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-G6LXKUAW",
+      "outFileName": "chunk-G6LXKUAW.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-RN7SNFOD",
-      "outFileName": "chunk-RN7SNFOD.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-ON5JNFS5",
+      "outFileName": "chunk-ON5JNFS5.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-LOLBHFBK",
-      "outFileName": "chunk-LOLBHFBK.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-4MZRILT7",
+      "outFileName": "chunk-4MZRILT7.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-5FY5NHQF",
-      "outFileName": "chunk-5FY5NHQF.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-3NHTYYND",
+      "outFileName": "chunk-3NHTYYND.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-WIVEKJOH",
-      "outFileName": "chunk-WIVEKJOH.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-HEQZYXO4",
+      "outFileName": "chunk-HEQZYXO4.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-MF3K4UED",
-      "outFileName": "chunk-MF3K4UED.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-PMOWQU6U",
+      "outFileName": "chunk-PMOWQU6U.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-PQ6RDXBI",
-      "outFileName": "chunk-PQ6RDXBI.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-BMKAYT4V",
+      "outFileName": "chunk-BMKAYT4V.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-TBOQSXHX",
-      "outFileName": "chunk-TBOQSXHX.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-7ZTCWLLR",
+      "outFileName": "chunk-7ZTCWLLR.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-AHQ2JYHE",
-      "outFileName": "chunk-AHQ2JYHE.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-PRCOYL4O",
+      "outFileName": "chunk-PRCOYL4O.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-WLM6SLJD",
-      "outFileName": "chunk-WLM6SLJD.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-2H5YBILG",
+      "outFileName": "chunk-2H5YBILG.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-U6VGVGKT",
-      "outFileName": "chunk-U6VGVGKT.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-OQTTJEXA",
+      "outFileName": "chunk-OQTTJEXA.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-BMPGQYLV",
-      "outFileName": "chunk-BMPGQYLV.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-X7SFHLJ5",
+      "outFileName": "chunk-X7SFHLJ5.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-4LVE4JJL",
-      "outFileName": "chunk-4LVE4JJL.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-ZPLV3KDQ",
+      "outFileName": "chunk-ZPLV3KDQ.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-RECHUXGF",
-      "outFileName": "chunk-RECHUXGF.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-QA6ELNH7",
+      "outFileName": "chunk-QA6ELNH7.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-NJCF67GI",
-      "outFileName": "chunk-NJCF67GI.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-3L53O3WG",
+      "outFileName": "chunk-3L53O3WG.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-VOHA3QBC",
-      "outFileName": "chunk-VOHA3QBC.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-K3GOACLW",
+      "outFileName": "chunk-K3GOACLW.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-FVDLKYOC",
-      "outFileName": "chunk-FVDLKYOC.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-G25BAKAM",
+      "outFileName": "chunk-G25BAKAM.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-7KUV4WVK",
-      "outFileName": "chunk-7KUV4WVK.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-NCEIK542",
+      "outFileName": "chunk-NCEIK542.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-N4SNQY5V",
-      "outFileName": "chunk-N4SNQY5V.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-7N7HFQKY",
+      "outFileName": "chunk-7N7HFQKY.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-RMOXI6XO",
-      "outFileName": "chunk-RMOXI6XO.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-FSAIB72R",
+      "outFileName": "chunk-FSAIB72R.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-PACPXHXL",
-      "outFileName": "chunk-PACPXHXL.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-QXX5WOHX",
+      "outFileName": "chunk-QXX5WOHX.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-ZGWTKG5Z",
-      "outFileName": "chunk-ZGWTKG5Z.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-PJPD4VSJ",
+      "outFileName": "chunk-PJPD4VSJ.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-GMWYU74A",
-      "outFileName": "chunk-GMWYU74A.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-OIQ2QPHM",
+      "outFileName": "chunk-OIQ2QPHM.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-ZVGPI6ZI",
-      "outFileName": "chunk-ZVGPI6ZI.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-NPG5RFMM",
+      "outFileName": "chunk-NPG5RFMM.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-6H44B76B",
-      "outFileName": "chunk-6H44B76B.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-ZOYGA7KW",
+      "outFileName": "chunk-ZOYGA7KW.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-JE6VEUSL",
-      "outFileName": "chunk-JE6VEUSL.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-7DWQP4SD",
+      "outFileName": "chunk-7DWQP4SD.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-MQ6KVUBG",
-      "outFileName": "chunk-MQ6KVUBG.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-6BLY3LJ7",
+      "outFileName": "chunk-6BLY3LJ7.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-PY7ZE27C",
-      "outFileName": "chunk-PY7ZE27C.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-JYXTBF5A",
+      "outFileName": "chunk-JYXTBF5A.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-VJYBASWG",
-      "outFileName": "chunk-VJYBASWG.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-JHGJD5QO",
+      "outFileName": "chunk-JHGJD5QO.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-QLZSQRL7",
-      "outFileName": "chunk-QLZSQRL7.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-OH3XPIE7",
+      "outFileName": "chunk-OH3XPIE7.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-7RHXFCZM",
-      "outFileName": "chunk-7RHXFCZM.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-DQM2BKPX",
+      "outFileName": "chunk-DQM2BKPX.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
-      "packageName": "@nf-internal/chunk-XID2BBVI",
-      "outFileName": "chunk-XID2BBVI.js"
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-ZAXD3EXQ",
+      "outFileName": "chunk-ZAXD3EXQ.js"
     },
     {
       "singleton": false,
       "strictVersion": false,
-      "requiredVersion": "0.0.0",
       "version": "0.0.0",
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-5K3DWT7Y",
+      "outFileName": "chunk-5K3DWT7Y.js"
+    },
+    {
+      "singleton": false,
+      "strictVersion": false,
+      "version": "0.0.0",
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-TPMJASNU",
+      "outFileName": "chunk-TPMJASNU.js"
+    },
+    {
+      "singleton": false,
+      "strictVersion": false,
+      "version": "0.0.0",
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-RTCTHLAQ",
+      "outFileName": "chunk-RTCTHLAQ.js"
+    },
+    {
+      "singleton": false,
+      "strictVersion": false,
+      "version": "0.0.0",
+      "requiredVersion": "0.0.0",
       "packageName": "@nf-internal/chunk-4CLCTAJ7",
       "outFileName": "chunk-4CLCTAJ7.js"
     }
@@ -685,11 +637,7 @@
   "exposes": [
     {
       "key": "./ApartmentsModule",
-      "outFileName": "ApartmentsModule-ZK2JCUZL.js"
-    },
-    {
-      "key": "./Component",
-      "outFileName": "Component-WDNOHEJL.js"
+      "outFileName": "ApartmentsModule-GHEV2KY3.js"
     }
   ]
 }
